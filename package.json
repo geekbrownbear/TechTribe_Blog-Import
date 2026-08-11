@@ -1,0 +1,13 @@
+{
+  "name": "techtribe-blog-import",
+  "version": "1.0.0",
+  "description": "Import monthly Tech Tribe marketing packs into a static site as Markdown posts.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "optimize-media": "node scripts/optimize-media.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
+}
